@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <div class="calc">
+        <input type="text" placeholder="0" id="output" >
+
+        <button onclick="Clear()" style="background-color: rgba(45, 130, 156, 0.692);">Cl</button>
+        <button onclick="Delete()">Del</button>
+        <button onclick="display('%')">%</button>
+        <button onclick="display('/')">/</button>
+        <button onclick="display('7')">7</button>
+        <button onclick="display('8')">8</button>
+        <button onclick="display('9')">9</button>
+        <button onclick="display('*')">X</button>
+        <button onclick="display('4')">4</button>
+        <button onclick="display('5')">5</button>
+        <button onclick="display('6')">6</button>
+        <button onclick="display('+')">+</button>
+        <button onclick="display('1')">1</button>
+        <button onclick="display('2')">2</button>
+        <button onclick="display('3')">3</button>
+        <button onclick="display('-')">-</button>
+        <button onclick="display('0')" style="border-bottom-left-radius: 8px;">0</button>
+        <button onclick="display('.')">.</button>
+        <button onclick="calc('=')" style="width: 120px; border-bottom-right-radius: 8px; background-color: rgb(86, 76, 175); color: white; font-size: 50px; line-height: 30px;">=</button>
+    </div>
+    <script src="calc.js"></script>
+</body>
+</html>
